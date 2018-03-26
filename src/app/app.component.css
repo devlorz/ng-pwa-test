@@ -1,0 +1,21 @@
+mat-sidenav {
+  width: 300px;
+}
+
+.lesson-content {
+  padding: 32px;
+}
+
+.lesson-content > h2 {
+  margin-top: 26px;
+}
+
+.primary-toolbar {
+  position: fixed;
+  top: 0;
+}
+
+.secondary-toolbar {
+  font-size: 34px;
+  padding: 100px 0 40px 32px;
+}

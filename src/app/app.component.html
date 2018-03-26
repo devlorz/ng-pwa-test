@@ -1,5 +1,16 @@
-<mat-toolbar color="primary">
-	<span>My Application</span>
-</mat-toolbar>
+<mat-sidenav-container>
+	<mat-sidenav #sidenav
+	             mode="side"></mat-sidenav>
+	<mat-sidenav-content>
+		<mat-toolbar color="primary"
+		             class="primary-toolbar">
+			<button mat-button
+			        (click)="sidenav.toggle()">
+				<mat-icon>menu</mat-icon>
+			</button>
+			<span>My Application</span>
+		</mat-toolbar>
+	</mat-sidenav-content>
+</mat-sidenav-container>
 
 <router-outlet></router-outlet>
