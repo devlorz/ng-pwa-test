@@ -5,4 +5,4 @@ import { MatToolbarModule } from "@angular/material";
   imports: [MatToolbarModule],
   exports: [MatToolbarModule]
 })
-export class NgMaterialModule {}
+export class AppMaterialModule {}
